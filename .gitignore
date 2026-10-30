@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ---- 本地环境与密钥 ----
+.env
+.env.local
+*.key
+*.pem
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 运行产物 ----
+.tmp/
+.tmp2/
+.tmp3/
+.tmp4/
+.deps/
+.tools/
+.pytest-tmp/
+pytest-cache-files-*/
+*.log
