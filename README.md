@@ -200,7 +200,11 @@ chain = (
 │   └── cli.py                 # 命令行入口
 ├── data/knowledge/            # 知识库（4 篇课程资料）
 ├── tests/                     # pytest 单元与端到端测试
-├── docs/architecture.md       # 架构说明
+├── docs/
+│   ├── architecture.md        # 架构说明
+│   ├── 开源小答-README文档说明.docx   # 可直接提交的 Word 版文档说明
+│   └── assets/architecture.png       # 架构图
+├── scripts/                   # 文档与配图生成脚本
 ├── requirements.txt           # 运行依赖
 ├── requirements-dev.txt       # 开发依赖
 ├── pyproject.toml             # 包元数据与 pytest 配置
