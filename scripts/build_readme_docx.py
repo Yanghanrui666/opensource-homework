@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs" / "开源小答-README文档说明.docx"
 ARCH = ROOT / "docs" / "assets" / "architecture.png"
 
-REPO = "https://github.com/Yanghanrui666/-"
+REPO = "https://github.com/Yanghanrui666/opensource-homework"
 EA_BODY = "宋体"
 EA_HEAD = "微软雅黑"
 LATIN_BODY = "Times New Roman"
@@ -505,7 +505,7 @@ answer = chain.invoke({"question": "GPL 和 MIT 有什么区别？", "history": 
     heading(doc, "5.2 安装", 2)
     code_block(
         doc,
-        """git clone https://github.com/Yanghanrui666/-.git smartqa
+        """git clone https://github.com/Yanghanrui666/opensource-homework.git smartqa
 cd smartqa
 
 python -m venv .venv

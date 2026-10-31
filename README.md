@@ -9,7 +9,7 @@
 ![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**开源仓库**：<https://github.com/Yanghanrui666/->
+**开源仓库**：<https://github.com/Yanghanrui666/opensource-homework>
 
 ---
 
@@ -46,7 +46,7 @@
 ### 3.2 安装
 
 ```bash
-git clone https://github.com/Yanghanrui666/-.git smartqa
+git clone https://github.com/Yanghanrui666/opensource-homework.git smartqa
 cd smartqa
 
 python -m venv .venv
